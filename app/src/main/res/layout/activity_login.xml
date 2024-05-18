@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faedcd"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+            <EditText
+
+                android:id="@+id/CorreoLogin"
+                android:hint="@string/CorreoLogin"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/boton_personalizado"
+                android:gravity="center"
+                android:importantForAutofill="no">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/PasswordLogin"
+                android:hint="@string/PasswordLogin"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/boton_personalizado"
+                android:gravity="center"
+                android:importantForAutofill="no">
+
+            </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Entrar"
+            android:text="@string/Btn_Entrar"
+            android:textSize="20sp"
+            android:background="@drawable/boton_personalizado"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
+
+</RelativeLayout>

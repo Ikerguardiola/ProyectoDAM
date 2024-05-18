@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "427498613213",
+    "project_id": "proyectodam-11abd",
+    "firebase_url": "https://proyectodam-11abd-default-rtdb.europe-west1.firebasedatabase.app/",
+    "storage_bucket": "proyectodam-11abd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427498613213:android:8710f99ef3e865153fee34",
+        "android_client_info": {
+          "package_name": "com.example.proyectodam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOCvU3PLdYeItDSvCaaxD6qOyk5m5FtfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

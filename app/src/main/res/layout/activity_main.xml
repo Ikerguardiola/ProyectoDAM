@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faedcd"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <!--Botón para LOGIN-->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Login"
+            android:text="@string/Btn_Login"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_personalizado">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <!--Botón para REGISTRO-->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Btn_Registrar"
+            android:text="@string/Btn_Registrar"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/boton_personalizado"
+            android:layout_marginTop="15dp">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/tabla"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Juego">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Linear layout para los registros-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:src="@drawable/contadorverduras"
+                android:layout_width="90dp"
+                android:layout_height="90dp">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <TextView
+
+                android:id="@+id/Contador"
+                android:text="@string/Contador"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/JugadorActivo"
+                android:text="@string/JugadorActivo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+
+                android:id="@+id/Tiempo"
+                android:text="@string/Tiempo"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_marginStart="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--Linear layout para los ratones y bombas-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/Verdura"
+                android:layout_width="300px"
+                android:layout_height="300px"
+                android:src="@drawable/berenjena">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/Bomba"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/bomba">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/Bomba1"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_marginLeft="400dp"
+                android:src="@drawable/bomba">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/Bomba2"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/bomba">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+
+                android:id="@+id/Bomba3"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:src="@drawable/bomba">
+
+            </androidx.appcompat.widget.AppCompatImageView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

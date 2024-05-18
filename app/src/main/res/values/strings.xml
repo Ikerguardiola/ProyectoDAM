@@ -1,0 +1,97 @@
+<resources>
+    <!--Strings del main-->
+
+    <string name="app_name">ProyectoDAM</string>
+
+    <string name="Btn_Login">LOGIN</string>
+
+    <string name="Btn_Registrar">REGISTRAR</string>
+
+    <!--Strings del registro-->
+
+    <string name="Correo">Correo electrónico</string>
+
+    <string name="Password">Contraseña</string>
+
+    <string name="Usuario">Usuario</string>
+
+    <string name="Fecha">FECHA</string>
+
+    <string name="Registro">REGISTRO</string>
+
+    <!--Strings del registro-->
+
+    <string name="CorreoLogin">Correo electrónico</string>
+
+    <string name="PasswordLogin">Contraseña</string>
+
+    <string name="Btn_Entrar">ENTRAR</string>
+
+    <!--Strings del menú-->
+
+    <string name="MiPuntuacion">PUNTUACIÓN</string>
+
+    <string name="IdU">--</string>
+
+    <string name="Score">--</string>
+
+    <string name="User">--</string>
+
+    <string name="Mail">--</string>
+
+    <string name="CerrarSesion">CERRAR SESION</string>
+
+    <string name="JugarBtn">JUGAR</string>
+
+    <string name="PuntuacionBtn">PUNTUACIONES</string>
+
+    <string name="AcercadeBtn">ACERCA DE</string>
+
+    <!--Strings del juego(Registro)-->
+
+    <string name="JugadorActivo">--</string>
+
+    <string name="Contador">0</string>
+
+    <string name="Tiempo">0S</string>
+
+    <!--Strings del juego(Verduras y bombas)-->
+
+    <string name="Verdura">--</string>
+
+    <string name="Bomba">--</string>
+
+    <string name="Bomba1">--</string>
+
+    <string name="Bomba2">--</string>
+
+    <string name="Bomba3">--</string>
+
+    <!--GameOver-->
+
+
+    <string name="TextoEliminacion">HAS CORTADO</string>
+
+    <string name="TextoEliminacionUno">VERDURAS</string>
+
+    <string name="Total">--</string>
+
+    <string name="JugarDeNuevo">JUGAR DE NUEVO</string>
+
+    <string name="IrMenu">MENU</string>
+
+    <string name="Puntuaciones">VER PUNTUACIONES</string>
+
+
+    <!--TarjetaUsuario-->
+
+    <string name="ImagenJugador"></string>
+
+    <string name="NombreJugador">--</string>
+
+    <string name="CorreoJugador">--</string>
+
+    <string name="Puntuacion">--</string>
+
+
+</resources>
